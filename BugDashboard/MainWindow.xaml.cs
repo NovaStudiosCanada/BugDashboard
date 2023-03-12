@@ -25,6 +25,35 @@ namespace BugDashboard
             InitializeComponent();
         }
 
+        private void B_Review_Checked(object sender, RoutedEventArgs e)
+        {
+            ShowPage(G_Review);
+        }
+
+        private void B_Home_Clicked(object sender, RoutedEventArgs e)
+        {
+            ShowPage(G_Home);
+        }
+
+
+        private void ShowPage(Border show)
+        {
+            //All Pages\\
+            Border[] pages = {G_Review, G_Home};
+
+            //If not set Group Box then Hide\\
+            foreach (Border page in pages)
+            {          
+                if (page.Name != show.Name)
+                {
+                    page.Visibility = Visibility.Collapsed;
+                }else
+                {
+                    page.Visibility = Visibility.Visible;
+                }
+            }
+        }
+
 
     }
 }

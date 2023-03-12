@@ -13,7 +13,7 @@
                         <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="{TemplateBinding Background}">
 
                             <TextBlock Text="{TemplateBinding Content}"
-                                       VerticalAlignment="Center" Margin="30,0,0,0" Foreground="#616065"/>
+                                       VerticalAlignment="Center" Margin="30,0,0,0" Foreground="White"/>
 
                         </Grid>
                     </ControlTemplate>
@@ -29,9 +29,10 @@
             <Trigger Property="IsMouseOver" Value="True">
                 <Setter Property="Background">
                     <Setter.Value>
-                        <LinearGradientBrush StartPoint="1,0" EndPoint="0,0">
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
                             <GradientStop Color="LightBlue" Offset="0"/>
-                            <GradientStop Color="LightBlue" Offset=".1"/>
+                            <GradientStop Color="LightBlue" Offset=".025"/>
+                            <GradientStop Color="Transparent" Offset=".026"/>
                         </LinearGradientBrush>
                     </Setter.Value>
                 </Setter>

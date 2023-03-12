@@ -6,18 +6,14 @@
         xmlns:local="clr-namespace:BugDashboard"
         mc:Ignorable="d"
         Height="450" Width="800"
-        WindowStyle="None"
-        ResizeMode="CanResize"
-        Background="Transparent"
-        AllowsTransparency="True">
+        WindowStyle="SingleBorderWindow"
+        ResizeMode="CanResize">
 
-    <Border Background="#0d0b11"
-            CornerRadius="5">
+    <Border Background="#0d0b11">
         
         <Grid>
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="75"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
@@ -26,13 +22,93 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel Grid.Row="1">
-                <RadioButton Content="Home" Height="50" FontSize="14" Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Search" Height="50" FontSize="14" Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Results" Height="50" FontSize="14" Style="{StaticResource MenuButtonTheme}"/>
 
+            <TextBlock Text="Dashboard" 
+                       VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" 
+                       Foreground="White"
+                       FontSize="22"
+                       Margin="0,20,0,0" 
+                       FontFamily="Segoe UI Variable Text Semibold"/>
+
+
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="0,0,0,140">
+
+                <RadioButton x:Name="B_Home" Content="Home" Height="50" FontSize="14" Style="{StaticResource MenuButtonTheme}" Click="B_Home_Clicked"/>
+                <RadioButton x:Name="B_Review" Content="Review" Height="50" FontSize="14" Style="{StaticResource MenuButtonTheme}" Click="B_Review_Checked"/>
 
             </StackPanel>
+
+
+            <Border
+                Background="#232228" BorderThickness="0,0,0,0" Panel.ZIndex="-1"/>
+
+
+            <Border x:Name="G_Home"
+                    Height="400"
+                    Width="625"
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Visibility="Collapsed"
+                    BorderThickness="0,0,0,0"
+                    CornerRadius="10">
+                
+                
+                
+                
+            </Border>
+
+            <Border x:Name="G_Review"
+                    Height="400"
+                    Width="625"
+                    Grid.Row="1" 
+                    Grid.Column="1" 
+                    Visibility="Visible"
+                    BorderThickness="0,0,0,0"
+                    CornerRadius="10">
+
+
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="475"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Border Grid.Column="1" 
+                            Grid.Row="1"
+                            Background="#232228"
+                            Width="140"
+                            BorderThickness="0,0,0,0"
+                            CornerRadius="3"
+                            HorizontalAlignment="Right"
+                            >
+                        <Border Background="#141519" Height="30" VerticalAlignment="Top">
+
+                            <TextBlock Text="Script Pass Rates" 
+                                       VerticalAlignment="Center" 
+                                       HorizontalAlignment="Left" 
+                                       Margin="10,0,0,0"
+                                       Foreground="White"
+                                       />
+
+
+                        </Border>
+                        
+                        
+                    </Border>
+                </Grid>
+                
+            </Border>
+
+
+
+
 
         </Grid>
 
