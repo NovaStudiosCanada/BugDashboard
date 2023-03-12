@@ -1,0 +1,943 @@
+21:22:01 [(null)] [1           ] [INFO] - Registered Juice rpc console communicator.
+21:22:01 [(null)] [1           ] [INFO] - Registered Juice screenshot service.
+21:22:01 [(null)] [1           ] [INFO] - Running script using command line 'Tournament.1.Smoke StartUp=None TearDown=None StartupDelayInSeconds=55 FailIfAssert=false Consoles[0].Platform=xbsx Consoles[0].Name=XSX1076493 Consoles[0].HostName=XSX1076493 FightSettings.Difficulty=3 Gameplay.FightToMatchEnd=true Gameplay.SimulateAllFights=false TournamentSettings.SaveAndReenter=true Automation.ThrowOnSlowGameplay=false Automation.RecordXboxSession=True Automation.XboxStreamOutputPath=\\eac.ad.ea.com\sports\hotsauce\UFC\QA\LFoss\Tournaments Server.Port=31007 Server.IpAddress=10.10.48.144 Automation.UploadToElasticSearch=true Automation.FarmName=UFCFBJOD Gameplay.RestartFight=false Timeouts.FightToMatchEndTimeoutMinutes=40 FightersSideSetup.Fighters[0].ID=-2 FightersSideSetup.WeightClass[0]=-2 FightersSideSetup.WeightClass[1]=-2 FightersSideSetup.Fighters[1].ID=-2 FightersSideSetup.Fighters[0].Corner=1 FightersSideSetup.Fighters[1].Corner=2 FightersSideSetup.Fighters[1].KitId=-2 FightersSideSetup.Fighters[0].KitId=-2 Timeouts.FightForSetTimeTimeoutMinutes=0.5 FailIfAssert=false Gameplay.ReplayCount=0'
+21:22:01 [(null)] [1           ] [INFO] - Script running with PID: 11640
+21:22:02 [(null)] [1           ] [INFO] - Script running with changes released at: 2023-03-09 15:36:25.111070
+21:22:02 [(null)] [1           ] [INFO] - Script running with changes from commit id: c108f5c58659f3e81cefef7af4bcd6c9ed0d7ad2
+21:22:02 [(null)] [1           ] [INFO] - Found consoles:
+21:22:02 [(null)] [1           ] [INFO] - EE5734B6309E0000 10.10.82.209
+21:22:02 [(null)] [1           ] [INFO] - ========End of consoles found ======
+21:22:02 [(null)] [1           ] [INFO] - Current number of consoles found: 1. Minimum Required Consoles: 1
+21:22:02 [(null)] [1           ] [INFO] - Juice Folder for session '226365' is '\\eac.ad.ea.com\JUICE\22\QA\UFCFB\SessionFiles\Juicsql1.eac.ad.ea.com\J_FY22_UFCFB_QA\JuiceSessions_226001-227000\JuiceSession_226365'
+21:22:02 [(null)] [1           ] [INFO] - Getting access key for console EE-57-34-B6-30-9E
+21:22:04 [(null)] [1           ] [WARN] - No access key found. You should set up an access key for extra security!
+21:22:04 [(null)] [1           ] [DEBUG] - Trying to connect to gamepad
+21:22:09 [(null)] [1           ] [DEBUG] - This thread will not get interrupted, so no need to set a flag for StateMonitor, original message: When getting the script session variable, we should have the thread with the mac address as thread name set!
+21:22:09 [(null)] [1           ] [INFO] - Disconnecting the controller
+21:22:09 [(null)] [1           ] [DEBUG] - Trying to disconnect all controllers
+21:22:09 [(null)] [1           ] [INFO] - Connecting New Controller 0
+21:22:09 [(null)] [1           ] [DEBUG] - Adding a new controller
+21:22:12 [(null)] [1           ] [INFO] - Paired controller [216172782113788815] to user 'EARW-UFCQV-Jan2200018@xboxtest.com'
+21:22:16 [(null)] [1           ] [DEBUG] - This thread will not get interrupted, so no need to set a flag for StateMonitor, original message: When getting the script session variable, we should have the thread with the mac address as thread name set!
+21:22:16 [(null)] [1           ] [INFO] - Intializing Glazier
+21:22:16 [(null)] [1           ] [INFO] - Intializing Glazier Service
+21:22:16 [(null)] [1           ] [INFO] - Getting Glazier script record for script name Tournament.1.Smoke
+21:22:17 [(null)] [1           ] [DEBUG] - Found script with ID fba6dc00-8d2f-4b90-6d6e-08da1727aa0d for Tournament
+21:22:17 [(null)] [1           ] [INFO] - Setting IX to 0
+21:22:17 [(null)] [1           ] [DEBUG] - Calling RPC command 'Automation.SetCvarInt' with arguments 'GameModesUX_Debug ui_initial_experience_override 0'
+21:22:17 [(null)] [1           ] [INFO] - Calling RPC to Hide Submission Tutorial
+21:22:17 [(null)] [1           ] [DEBUG] - Calling RPC command 'Automation.SetCvarInt' with arguments 'GameModesUX_FE_Debug ui_show_ftue 0'
+21:22:17 [(null)] [1           ] [INFO] - No log path specified.
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ** Script Job -  - Starting **
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ** UfcScriptStartInfo - Begin **
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - GameVersion                                = UFC5
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ScriptName                                 = Tournament.1.Smoke
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].Name                           = XSX1076493
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].Platform                       = xbsx
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].MacAddress                     = EE5734B6309E0000
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].GameIpAddress                  = 10.10.82.209
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].DebugIpAddress                 = 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].HostName                       = XSX1076493
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Consoles[0].AutomationRole                 = None
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ParameterFileName                          = Scripts/Config/Tournament.1.Smoke.xml
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Platform                                   = xbsx
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - SuppressKennelConfigErrors                 = False
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - FailIfAssert                               = False
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - MinimumConsoleCheck                        = False
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ScriptRunLength                            = MaxLengthByDate: 12/31/9999 11:59:59 PM, MaxLength: 208.08:00:00, ThrowsException: True
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ** UfcScriptStartInfo - End **
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Trying to print this script parameters from Glazier
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - Getting Glazier scriptparameters for script with Id fba6dc00-8d2f-4b90-6d6e-08da1727aa0d
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - ** UfcScriptParameters - Begin **
+21:22:17 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.Corner                   = 0
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.WeightClass              = -2
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.Fighters[0].ID           = -2
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.Fighters[0].Corner       = 1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.Fighters[1].ID           = -2
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightersSideSetup.Fighters[1].Corner       = 2
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightSettings.ClockSpeed                   = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightSettings.Difficulty                   = 3
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightSettings.FightType                    = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - FightSettings.Venue                        = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.InstantWinFight                   = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.SkipPreFightIntro                 = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.SkipPostFightNIS                  = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.RandomActions                     = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.SimulateAllFights                 = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.DisableKoCorner                   = None
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.AreyouReadyEmoteSide              = No
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Gameplay.CelebrationEmoteSide              = No
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Timeouts.FightToMatchEndTimeoutMinutes     = 40
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Timeouts.WatchNisTimeoutMinutes            = 7
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Timeouts.WatchPreFightNisTimeoutMinutes    = 8
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Timeouts.TransitionTimeoutMinutes          = 3
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Timeouts.UpdateSettingsTimeoutMinutes      = 12
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.TournamentType          = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.WeightClassType         = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.BracketSize             = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.ContinuedDamage         = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.SkipTransitions         = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.CompetitiveStats        = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.StaminaRecovery         = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.Perks                   = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.CPUStaminaRecovery      = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.StaminaCost             = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.CPUStaminaCost          = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.HealthRecovery          = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.CPUHealthRecovery       = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.Damage                  = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.CPUDamage               = -1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - TournamentSettings.SaveAndReenter          = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Online.DownloadTuner                       = 0
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.GameBranch                      = UFC5
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.SaveLoadDeleteAll               = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.UseSetupIniSaveLoad             = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.DisableAsserts                  = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.CrashOnAssert                   = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.ScreenshotOverridePath          = 
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.FarmName                        = UFCFBJOD
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.UploadToElasticSearch           = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.NumberOfJuiceControllers        = 1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.SelectionManagerLoggingLevel    = 0
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.SelectionManagerDelaySeconds    = 0
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.BuildBranch                     = ML
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.RecordXboxSession               = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.XboxStreamOutputPath            = \\eac.ad.ea.com\sports\hotsauce\UFC\QA\LFoss\Tournaments
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.NumberOfRuns                    = 1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.MinimumRequiredConsoles         = 1
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.EnableScreenHandlerAutoUpdate   = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.EnableFirstPartyCalls           = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.JobName                         = 
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Automation.EnableRPC                       = True
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Metrics.RtvCapture                         = False
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - ** UfcScriptParameters - End **
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - 
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Console 'EE5734B6309E0000' is on CL '4569041'
+21:22:18 [XSX1076493] [34B6309E0000] [INFO] - Juice Folder for session '226365' is '\\eac.ad.ea.com\JUICE\22\QA\UFCFB\SessionFiles\Juicsql1.eac.ad.ea.com\J_FY22_UFCFB_QA\JuiceSessions_226001-227000\JuiceSession_226365'
+21:22:20 [XSX1076493] [34B6309E0000] [WARN] - Expected information in NavStateThree for screen /features/online/loginflow/vvms/loginflow is null
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is StartScreenHandler
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='RegisterScript']: StartScreen
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - Juice Telemetry Script: Tournament.1.Smoke
+21:22:20 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'RegisterScript' Complete
+21:22:20 [(null)] [ScreenDetect] [WARN] - Expected information in NavStateThree for screen /features/online/loginflow/vvms/loginflow is null
+21:22:22 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:22 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:22 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='DisableUserSignIn']: StartScreen
+21:22:22 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: DisableUserSignin.
+21:22:22 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'DisableUserSignIn' Complete
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='UnlockAllFighters']: StartScreen
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC UnlockAllFighters
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC ToggleTunerSets with value: False
+21:22:24 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'UnlockAllFighters' Complete
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='UpdateNISEmote']: StartScreen
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - Setting Are You Ready Emote Side to No
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - Setting Are You Ready Emote Side to No
+21:22:26 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'UpdateNISEmote' Complete
+21:22:29 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:29 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:29 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='DisableKoCorner']: StartScreen
+21:22:29 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC DisableKo for Corner: None
+21:22:29 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'DisableKoCorner' Complete
+21:22:31 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:31 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:31 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='DisableControllerCheck']: StartScreen
+21:22:31 [XSX1076493] [34B6309E0000] [INFO] - Setting Disable Controller Check to True
+21:22:31 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'DisableControllerCheck' Complete
+21:22:33 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:33 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:33 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='ApplyGeneralCvars']: StartScreen
+21:22:33 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'ApplyGeneralCvars' Complete
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/pressstart/pressstart match with screen StartScreen
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='StartScreenHandler'][ScriptAction='ToMainHub']: StartScreen
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: SaveLoadDeleteAll.
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Checking retry counter.
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Checking retry counter.
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Retry Counter StartScreenHandler has value 1
+21:22:35 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:22:38 [(null)] [ScreenDetect] [WARN] - Handler not found
+21:22:38 [(null)] [34B6309E0000] [WARN] - Handler not found
+21:22:38 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: UnknownScreen, Old known screen: StartScreen
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/eula/eula match with screen EulaScreen
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is EulaScreenHandler
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='EulaScreenHandler'][ScriptAction='ToMainHub']: EulaScreen
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Accepting EULA/Home Page Messages
+21:22:39 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 3 seconds
+21:22:42 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:22:42 [(null)] [ScreenDetect] [WARN] - Handler not found
+21:22:42 [(null)] [34B6309E0000] [WARN] - Handler not found
+21:22:42 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: UnknownScreen, Old known screen: EulaScreen
+21:22:42 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:22:44 [XSX1076493] [34B6309E0000] [WARN] - Handler not found
+21:22:44 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:22:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:22:45 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is 
+21:22:45 [XSX1076493] [34B6309E0000] [WARN] - [Tournament.1.Smoke][SCREEN HANDLER NOT FOUND!][ToMainHub]: UnknownScreen
+21:22:45 [XSX1076493] [34B6309E0000] [INFO] - Waiting for screen to complete loading and will try again attempt 1/5
+21:22:55 [XSX1076493] [arDownThread] [INFO] - Could not preform tear down as CurrentHandler is null.
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/homepagemessages/bootflowPopups match with screen BootFlowPopupScreen
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is BootFlowPopupScreenHandler
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='BootFlowPopupScreenHandler'][ScriptAction='ToMainHub']: BootFlowPopupScreen
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Skipping the screen..
+21:22:57 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 2 on port 0...
+21:23:00 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/homepagemessages/bootflowPopups match with screen BootFlowPopupScreen
+21:23:00 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:00 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='BootFlowPopupScreenHandler'][ScriptAction='ToMainHub']: BootFlowPopupScreen
+21:23:00 [XSX1076493] [34B6309E0000] [INFO] - Skipping the screen..
+21:23:00 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 2 on port 0...
+21:23:03 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/bootflow/vvms/homepagemessages/bootflowPopups match with screen BootFlowPopupScreen
+21:23:03 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:03 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='BootFlowPopupScreenHandler'][ScriptAction='ToMainHub']: BootFlowPopupScreen
+21:23:03 [XSX1076493] [34B6309E0000] [INFO] - Skipping the screen..
+21:23:03 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 2 on port 0...
+21:23:06 [(null)] [ScreenDetect] [WARN] - Handler not found
+21:23:06 [(null)] [34B6309E0000] [WARN] - Handler not found
+21:23:06 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: UnknownScreen, Old known screen: BootFlowPopupScreen
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/hospitalityscreen/vvm/hospitalityscreen match with screen HospitalityScreen
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is HospitalityScreenHandler
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='HospitalityScreenHandler'][ScriptAction='ToMainHub']: HospitalityScreen
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Dismissing hospitality screen
+21:23:07 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:23:10 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TransitionScreen, Old known screen: HospitalityScreen
+21:23:10 [XSX1076493] [34B6309E0000] [WARN] - Handler not found
+21:23:10 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:10 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:10 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is 
+21:23:10 [XSX1076493] [34B6309E0000] [WARN] - [Tournament.1.Smoke][SCREEN HANDLER NOT FOUND!][ToMainHub]: UnknownScreen
+21:23:10 [XSX1076493] [34B6309E0000] [INFO] - Waiting for screen to complete loading and will try again attempt 1/5
+21:23:20 [XSX1076493] [arDownThread] [INFO] - Could not preform tear down as CurrentHandler is null.
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is MainHubScreenHandler
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='ToMainHub']: MainHubScreen
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Getting Vision ID, Warning: if the RPC failed please make sure to add Juice.RPCFilters ['VisionRPCs'] in local.cfg for FB
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Getting Vision Stream, Warning: if the RPC failed please make sure to add Juice.RPCFilters ['VisionRPCs'] in local.cfg for FB
+21:23:22 [XSX1076493] [34B6309E0000] [WARN] - Vision streamId is expected to have a value and not -1
+21:23:22 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:23:22 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'ToMainHub' Complete
+21:23:24 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:23:24 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:25 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='XboxStartStream']: MainHubScreen
+21:23:25 [XSX1076493] [34B6309E0000] [INFO] - Video stream for session 226365 recorded in \\eac.ad.ea.com\sports\hotsauce\UFC\QA\LFoss\Tournaments\EE5734B6309E0000_226365.mp4
+21:23:25 [XSX1076493] [34B6309E0000] [INFO] - Process started recording for console $XSX1076493 with ID 8556
+21:23:25 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:23:25 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'XboxStartStream' Complete
+21:23:27 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:23:27 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:27 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='ToTournament']: MainHubScreen
+21:23:28 [XSX1076493] [34B6309E0000] [INFO] - Selecting tile offline
+21:23:29 [XSX1076493] [34B6309E0000] [INFO] - Delaying call for 0 seconds.
+21:23:29 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:23:32 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:23:33 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:33 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='ToTournament']: MainHubScreen
+21:23:33 [XSX1076493] [34B6309E0000] [INFO] - Selecting tile startTournament
+21:23:38 [XSX1076493] [34B6309E0000] [INFO] - Delaying call for 0 seconds.
+21:23:38 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:23:41 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentSettingsScreen, Old known screen: MainHubScreen
+21:23:41 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentSettingsScreenHandler
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='ToTournament']: TournamentSettingsScreen
+21:23:43 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:23:43 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'ToTournament' Complete
+21:23:45 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:23:45 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:45 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='CreateTournament']: TournamentSettingsScreen
+21:23:45 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:23:46 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 4 on port 0...
+21:23:47 [XSX1076493] [34B6309E0000] [INFO] - Creating Tournament..
+21:23:49 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentMatchListScreen, Old known screen: TournamentSettingsScreen
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentMatchListScreenHandler
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='CreateTournament']: TournamentMatchListScreen
+21:23:50 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:23:50 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'CreateTournament' Complete
+21:23:52 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:23:52 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:52 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentMatchListScreen
+21:23:52 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 2 on port 0...
+21:23:53 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentSettingsScreen, Old known screen: TournamentMatchListScreen
+21:23:53 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentSettingsScreenHandler
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Changing TournamentName next...
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Updating Settings.. Skipping Tournament Name
+21:23:55 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:23:58 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:23:59 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:23:59 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:23:59 [XSX1076493] [34B6309E0000] [INFO] - Changing TournamentType next...
+21:23:59 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:01 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (TournamentType): 1
+21:24:01 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:04 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:05 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:05 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:05 [XSX1076493] [34B6309E0000] [INFO] - Changing WeightClassType next...
+21:24:05 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:07 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (WeightClassType): 1
+21:24:07 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:08 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: PopupGeneralTournamentScreen, Old known screen: TournamentSettingsScreen
+21:24:08 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/popup/vvms/standardpopup/managedpopup match with screen PopupGeneralTournamentScreen
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentPopupScreenHandler
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentPopupScreenHandler'][ScriptAction='SetTournamentSettings']: PopupGeneralTournamentScreen
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Popup Message is : Do you want to save these settings?
+Your current tournament lineup will be reset
+21:24:10 [XSX1076493] [34B6309E0000] [INFO] - Selecting tile OK
+21:24:12 [XSX1076493] [34B6309E0000] [INFO] - Delaying call for 0 seconds.
+21:24:12 [XSX1076493] [34B6309E0000] [INFO] - Navigation failed.
+21:24:13 [XSX1076493] [34B6309E0000] [INFO] - Navigating manually to OK
+21:24:13 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Up on port 0...
+21:24:14 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:24:16 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentSettingsScreen, Old known screen: PopupGeneralTournamentScreen
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentSettingsScreenHandler
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:17 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:18 [XSX1076493] [34B6309E0000] [INFO] - Changing WeightClass next...
+21:24:18 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (WeightClass): 0
+21:24:18 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - Changing BracketSize next...
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (BracketSize): 0
+21:24:22 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:25 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:25 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:25 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:25 [XSX1076493] [34B6309E0000] [INFO] - Changing ContinuedDamage next...
+21:24:25 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:27 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (ContinuedDamage): 1
+21:24:27 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:31 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:31 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:31 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:31 [XSX1076493] [34B6309E0000] [INFO] - Changing Difficulty next...
+21:24:31 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:33 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:35 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (Difficulty): 3
+21:24:35 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - Changing FightType next...
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (FightType): 0
+21:24:39 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:42 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:42 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:42 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:42 [XSX1076493] [34B6309E0000] [INFO] - Changing ClockSpeed next...
+21:24:42 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:24:44 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (ClockSpeed): 0
+21:24:44 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:24:48 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:24:48 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:24:48 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:24:48 [XSX1076493] [34B6309E0000] [INFO] - Changing Venue next...
+21:24:48 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:50 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:52 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:54 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:57 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:24:59 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:01 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:03 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:06 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:08 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:10 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:13 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:15 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:17 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:25:19 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (Venue): 14
+21:25:19 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - Changing SkipTransitions next...
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (SkipTransitions): 1
+21:25:23 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:26 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:26 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:26 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:26 [XSX1076493] [34B6309E0000] [INFO] - Getting Settings Info
+21:25:29 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:29 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:29 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:29 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button R1 on port 0...
+21:25:32 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:32 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:32 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:32 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:25:34 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (CompetitiveStats): 0
+21:25:34 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:38 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:38 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:38 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:38 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (Perks): 0
+21:25:38 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:41 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:41 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:41 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:41 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (StaminaRecovery): 0
+21:25:41 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:44 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:44 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:44 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:44 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (CPUStaminaRecovery): 0
+21:25:44 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:25:48 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:25:48 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:25:48 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:25:48 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:25:51 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:25:53 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:25:55 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:25:58 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:00 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:02 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:04 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:07 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (StaminaCost): 2
+21:26:07 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:26:10 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:26:10 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:26:10 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:26:10 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:12 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:14 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:17 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:19 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:21 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:23 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Left on port 0...
+21:26:26 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (CPUStaminaCost): 3
+21:26:26 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:26:29 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:26:29 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:26:29 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:26:29 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:31 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (HealthRecovery): 1
+21:26:31 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:26:35 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:26:35 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:26:35 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:26:35 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:37 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (CPUHealthRecovery): 1
+21:26:37 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:26:40 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:26:40 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:26:40 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:26:40 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:42 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:45 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:47 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (Damage): 13
+21:26:47 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:26:50 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:26:50 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:26:50 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:26:50 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:53 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:55 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Right on port 0...
+21:26:57 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings (CPUDamage): 13
+21:26:57 [XSX1076493] [34B6309E0000] [INFO] - Pressing button DPad Down on port 0...
+21:27:00 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:27:00 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:00 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:27:00 [XSX1076493] [34B6309E0000] [INFO] - Getting Settings Info
+21:27:03 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_settings match with screen TournamentSettingsScreen
+21:27:03 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:03 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentSettingsScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentSettingsScreen
+21:27:03 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 4 on port 0...
+21:27:05 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentMatchListScreen, Old known screen: TournamentSettingsScreen
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentMatchListScreenHandler
+21:27:06 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='SetTournamentSettings']: TournamentMatchListScreen
+21:27:07 [XSX1076493] [34B6309E0000] [INFO] - Tournament Settings Updated
+21:27:07 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:27:07 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'SetTournamentSettings' Complete
+21:27:09 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:27:09 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:09 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='SetupBrackets']: TournamentMatchListScreen
+21:27:09 [XSX1076493] [34B6309E0000] [INFO] - AutoFill Tournament Brackets
+21:27:09 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Right Thumb on port 0...
+21:27:14 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:27:19 [XSX1076493] [34B6309E0000] [INFO] - Loading tournament info from the game...
+21:27:19 [XSX1076493] [34B6309E0000] [INFO] - Service Request call info testService:{\"RequestList\":[{\"URN\":\"ufc:01.00.00:grandprixmode:tournament:get-info\",\"Input\":{}}]}
+21:27:19 [(null)] [16          ] [INFO] - xbcapture /o "\\eac.ad.ea.com\JUICE\22\QA\UFCFB\SessionFiles\Juicsql1.eac.ad.ea.com\J_FY22_UFCFB_QA\JuiceSessions_226001-227000\JuiceSession_226365\Tournament_Setup_Bracket_0.png" on console XSX1076493
+21:27:20 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:27:21 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:27:21 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'SetupBrackets' Complete
+21:27:23 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:27:23 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:23 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='ExitTournament']: TournamentMatchListScreen
+21:27:23 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 2 on port 0...
+21:27:25 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentQuitConfirmationPopupScreen, Old known screen: TournamentMatchListScreen
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/popup/vvms/standardpopup/managedpopup match with screen TournamentQuitConfirmationPopupScreen
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentQuitConfirmationPopupScreenHandler
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentQuitConfirmationPopupScreenHandler'][ScriptAction='ExitTournament']: TournamentQuitConfirmationPopupScreen
+21:27:27 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:27:30 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: MainHubScreen, Old known screen: TournamentQuitConfirmationPopupScreen
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is MainHubScreenHandler
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='ExitTournament']: MainHubScreen
+21:27:30 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:27:30 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'ExitTournament' Complete
+21:27:32 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/main/vvms/mainmenu/mainmenu match with screen MainHubScreen
+21:27:32 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:32 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='MainHubScreenHandler'][ScriptAction='LoadTournament']: MainHubScreen
+21:27:33 [XSX1076493] [34B6309E0000] [INFO] - Selecting tile continueTournament
+21:27:36 [XSX1076493] [34B6309E0000] [INFO] - Delaying call for 0 seconds.
+21:27:36 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:27:40 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: TournamentMatchListScreen, Old known screen: MainHubScreen
+21:27:40 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is TournamentMatchListScreenHandler
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='LoadTournament']: TournamentMatchListScreen
+21:27:42 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:27:42 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'LoadTournament' Complete
+21:27:44 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/arcade/tournament/vvm/tournament_bracket match with screen TournamentMatchListScreen
+21:27:44 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:44 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='TournamentMatchListScreenHandler'][ScriptAction='EnterFight']: TournamentMatchListScreen
+21:27:44 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:27:45 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: BackEndSideSelectScreen, Old known screen: TournamentMatchListScreen
+21:27:45 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/sideselect/sideselectversus match with screen BackEndSideSelectScreen
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is BackEndSideSelectScreenHandler
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='BackEndSideSelectScreenHandler'][ScriptAction='EnterFight']: BackEndSideSelectScreen
+21:27:47 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:27:47 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'EnterFight' Complete
+21:27:49 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/sideselect/sideselectversus match with screen BackEndSideSelectScreen
+21:27:49 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:49 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='BackEndSideSelectScreenHandler'][ScriptAction='SelectCorner']: BackEndSideSelectScreen
+21:27:49 [XSX1076493] [34B6309E0000] [INFO] - Sleeping for 2 seconds to ensure we've loaded before we select a corner
+21:27:51 [XSX1076493] [34B6309E0000] [INFO] - Selected Fighter Corner:None
+21:27:51 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:27:53 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: PopupNoSideChosenWarningFighterScreen, Old known screen: BackEndSideSelectScreen
+21:27:53 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/popup/vvms/standardpopup/managedpopup match with screen PopupNoSideChosenWarningFighterScreen
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is NoSideChosenWarningScreenHandler
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='NoSideChosenWarningScreenHandler'][ScriptAction='SelectCorner']: PopupNoSideChosenWarningFighterScreen
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - No Side Chosen popup Screen Handler!
+21:27:55 [XSX1076493] [34B6309E0000] [INFO] - Selecting tile YES
+21:28:00 [XSX1076493] [34B6309E0000] [INFO] - Delaying call for 0 seconds.
+21:28:00 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:28:01 [(null)] [ScreenDetect] [WARN] - Handler not found
+21:28:01 [(null)] [34B6309E0000] [WARN] - Handler not found
+21:28:01 [(null)] [34B6309E0000] [INFO] - Screen has changed! Current screen: UnknownScreen, Old known screen: PopupNoSideChosenWarningFighterScreen
+21:28:01 [XSX1076493] [34B6309E0000] [WARN] - Successfully aborted the thread! Thread was being aborted.
+21:28:03 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:03 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:03 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMNameHash.
+21:28:04 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: GetLastVVMName.
+21:28:04 [XSX1076493] [34B6309E0000] [INFO] - Selected screen handler is GamePlayScreenHandler
+21:28:04 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='SelectCorner']: GamePlayScreen
+21:28:04 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:28:04 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'SelectCorner' Complete
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='ShowGameplayInfo']: GamePlayScreen
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: ShowGameplayInfo.
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC: ShowGameplayInfo.
+21:28:06 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'ShowGameplayInfo' Complete
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='WatchPreFightNIS']: GamePlayScreen
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - MatchState: START_FIGHT
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - Button press through pre-fight
+21:28:09 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:28:16 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:28:23 [XSX1076493] [34B6309E0000] [INFO] - Pressing button Button 1 on port 0...
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='WatchPreFightNIS']: GamePlayScreen
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:28:32 [XSX1076493] [34B6309E0000] [WARN] - Done with post complete actions...
+21:28:32 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:28:37 [XSX1076493] [34B6309E0000] [INFO] - Round 1 started
+21:28:37 [XSX1076493] [34B6309E0000] [INFO] - Script Action 'WatchPreFightNIS' Complete
+21:28:39 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:39 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:39 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:28:39 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:39 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 41.026 fighting until timeout or the end of the match
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Round has been changed. Gameplay is still alive
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:28:40 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 51.018 fighting until timeout or the end of the match
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:28:47 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 62.012 fighting until timeout or the end of the match
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:28:54 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 72.004 fighting until timeout or the end of the match
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:01 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 82.024 fighting until timeout or the end of the match
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:08 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:15 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 92.016 fighting until timeout or the end of the match
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:16 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 103.01 fighting until timeout or the end of the match
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:23 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 114.006 fighting until timeout or the end of the match
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:30 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:37 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:37 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:37 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:37 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 124.028 fighting until timeout or the end of the match
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:38 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 134.022 fighting until timeout or the end of the match
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:45 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 144.016 fighting until timeout or the end of the match
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:52 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 155.013 fighting until timeout or the end of the match
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:29:59 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:06 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:06 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:06 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:06 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 166.009 fighting until timeout or the end of the match
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:07 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 176.004 fighting until timeout or the end of the match
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:14 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 187 fighting until timeout or the end of the match
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:21 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:28 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:29 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:29 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 197.022 fighting until timeout or the end of the match
+21:30:29 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:29 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:29 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 207.017 fighting until timeout or the end of the match
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:36 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 219.013 fighting until timeout or the end of the match
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:43 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 229.003 fighting until timeout or the end of the match
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:50 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:30:57 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 240.022 fighting until timeout or the end of the match
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:30:58 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 250.012 fighting until timeout or the end of the match
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:31:05 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 260.001 fighting until timeout or the end of the match
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:31:12 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 270.019 fighting until timeout or the end of the match
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:31:19 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 280.009 fighting until timeout or the end of the match
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Game is alive...
+21:31:26 [XSX1076493] [34B6309E0000] [INFO] - Waiting for 5 seconds
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Found a screen in the screen stack - /features/gameplay/vvms/ingamecontrol match with screen GamePlayScreen
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Found ScreenHandler for Screen vvm
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - [Tournament.1.Smoke][ScreenHandler='GamePlayScreenHandler'][ScriptAction='FightToMatchEnd']: GamePlayScreen
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_MatchState
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - MatchState: FIGHT
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundNum
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Timer_Round_Elapsed
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Calling RPC GetNoaValue with value: DataCat_Game, Global_RoundLength
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Fighting in round: 1 elapsed time 290.026 fighting until timeout or the end of the match
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Elapsed time for this round has been changed. Gameplay is still alive
+21:31:33 [XSX1076493] [34B6309E0000] [INFO] - Game is 
